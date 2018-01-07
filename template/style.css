@@ -1,0 +1,180 @@
+/*
+Theme Name: Hamlin COC Theme
+Author: Rick Collins
+Description: The theme for Hamlin Chamber of Commerce
+License: Proprietary
+*/
+
+@font-face {
+    font-family: 'tex_gyre_bonumregular';
+    src: url('fonts/texgyrebonum-regular-webfont.eot');
+    src: url('fonts/texgyrebonum-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/texgyrebonum-regular-webfont.woff') format('woff'),
+    url('fonts/texgyrebonum-regular-webfont.ttf') format('truetype'),
+    url('fonts/texgyrebonum-regular-webfont.svg#tex_gyre_bonumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {font-size:170%}
+a {
+    color:#257300;
+}
+#main-nav.navbar-inverse .navbar-nav > li>a {
+    color:white;
+    font-weight: bold;
+    font-size:110%;
+    font-family: 'tex_gyre_bonumregular', 'Times New Roman', serif;
+}
+#main-nav.navbar-inverse .navbar-nav > li>a:hover {
+    background-color: #257300;
+}
+#main-nav.navbar-inverse {
+
+    border-radius: 0;
+}
+#main-nav.navbar-inverse .container-fluid .navbar-header a {
+    color:white;
+}
+#main-nav.navbar-inverse .navbar-nav li ul.dropdown-menu  {
+    background-color: black;
+}
+#main-nav.navbar-inverse .navbar-nav li ul.dropdown-menu >li a {
+    color:#fff;
+    font-family: 'tex_gyre_bonumregular', 'Times New Roman', serif;
+
+}
+#main-nav.navbar-inverse .navbar-nav li ul.dropdown-menu >li a:hover {
+
+    background-color:#257300;
+
+}
+#main-header.jumbotron {
+    margin-bottom:0;
+    padding:0;
+    color:white;
+    background-color: #257300;
+    font-family: 'tex_gyre_bonumregular', 'Times New Roman', serif;
+}
+#main-header.jumbotron h1 {
+
+}
+#main-header.jumbotron #action-nav {
+    margin: 20px 0 0 0;
+}
+#main-header.jumbotron #action-nav li a {
+    color:#fff;
+    border-radius:0;
+    font-size:150%;
+    font-weight:bold;
+}
+#main-header.jumbotron #action-nav li a:hover {
+    background-color: #000000;
+
+}
+#myCarousel.carousel.slide ol.carousel-indicators li.active {
+
+}
+#myCarousel.carousel.slide div.carousel-caption {
+    color:white;
+    left:0;
+    right:0;
+    bottom:0;
+    text-align:left;
+    background-color:rgba(0,0,0,0.6);
+    padding:0;
+}
+#myCarousel.carousel.slide div.carousel-caption h2 {
+    background-color: rgba(37,115,0,0.6);
+    margin:0;
+}
+ul#side-nav.nav.nav-pills.nav-stacked li a {
+    border-radius:0;
+    background-color: #257300;
+    color:#fff;
+    padding: 20px 20px;
+
+}
+
+ul#side-nav.nav.nav-pills.nav-stacked li:nth-child(even) a {
+
+    background-color: #000000;
+
+}
+.page-header {
+    border-bottom: 1px solid #000;
+
+}
+.attn.jumbotron {
+    background-color: rgba(37,115,0,0.6);
+    border-radius:0px;
+}
+
+
+.attn a {
+    color:#257300;
+}
+.attn .panel-heading {
+    background-color: rgba(37,115,0,0.6);
+    border-radius:0px;
+    color:#ffffff;
+}
+.attn .panel-heading a {
+    color:#ffffff;
+}
+#Business_Map,
+#Event_Map,
+#Game_Map {
+    width:500px;
+    height:400px;
+}
+.larger {
+    font-size:150%;
+}
+.center {
+    margin-right:auto;
+    margin-left:auto;
+}
+div.main_pic img{
+    margin-right:auto;
+    margin-left:auto;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    #main-header.jumbotron {
+        text-align:center;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #main-header.jumbotron {
+        text-align:center;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    #Business_Map,
+    #Event_Map,
+    #Game_Map {
+        width:400px;
+        height:400px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    #Business_Map,
+    #Event_Map,
+    #Game_Map {
+        width:300px;
+        height:300px;
+    }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="69b13ccb-1f05-4ae3-be64-2fe2a639b4fd" name="WP Theme for Hamlin COC" url="http://localhost/hamlincoc_wp">
+        <fileTransfer port="0" mountedRoot="C:\wamp64\www\hamlincoc_wp\wp-content\themes\hamlincoc" accessType="MOUNT" />
+      </webServer>
+      <webServer id="394fe7b2-2899-46ac-b155-a917649d7640" name="Hamlin Chamber" url="http://www.hamlinchamber.com">
+        <fileTransfer host="hamlinchamber.com" port="21" rootFolder="/wp-content/themes/COC_WP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
